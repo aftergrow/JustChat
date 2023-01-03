@@ -1,0 +1,10 @@
+package ssp;
+
+message PhotoInfoBase {
+    optional uint32 ver = 1;
+    optional uint32 user_id = 2;
+    optional uint32 last_publisher = 3;
+    optional uint64 last_publisher_time = 4;
+    optional uint64 last_user_get_time = 5;
+} 
+
