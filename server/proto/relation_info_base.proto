@@ -1,0 +1,10 @@
+package ssp;
+
+message RelationInfoBase {
+	optional uint32 ver = 1;
+	optional uint32 user_id = 2;
+	repeated uint32 friend_list = 3;
+	repeated uint32 black_list = 4;
+	optional uint32 friend_count = 5;
+	optional uint32 black_count = 6;
+}
